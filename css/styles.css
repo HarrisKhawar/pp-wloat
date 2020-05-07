@@ -1,0 +1,303 @@
+/***************** body *****************/
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.btn-warning {
+  color: #faf5e4;
+}
+
+.btn-warning:hover {
+  background-color: #faf5e4;
+  color: #EFC02F;
+}
+
+.btn-primary {
+  color: #faf5e4;
+  background-color: #004445;
+  border-color: #004445;
+}
+
+.btn-primary:hover {
+  background-color: #faf5e4;
+  border-color: #004445;
+  color: #004445;
+}
+
+/***************** Navigation Bar *****************/
+.navbar {
+  background-color: #004445;
+}
+
+#wloat-title {
+  font-family: 'Righteous', sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/***************** Main Banner *****************/
+#banner-main {
+  background-color: #faf5e4;
+}
+
+#banner-main .container-fluid {
+  padding-left: 5%;
+}
+
+#banner-main .col-lg-6.col-sm-6.col-12 {
+  padding-right: 0;
+}
+
+@media (max-width: 991px) {
+  #banner-main .container-fluid {
+    padding-left: 0;
+  }
+}
+
+#wloat-icon {
+  max-width: 90%;
+  float: right;
+}
+
+#wloat-slogan {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #004445;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+
+@media (max-width: 991px) {
+  #wloat-slogan {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+  @media (max-width: 575px) {
+    #wloat-icon {
+      max-width: 60%;
+    }
+  }
+
+  .banner-btn {
+    text-align: center;
+  }
+}
+
+#learn-more-btn:hover {
+  color: #faf5e4;
+}
+
+/***************** Highlights *****************/
+#features {
+  padding: 0 10%;
+}
+
+.highlights {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0;
+}
+
+.highlights h3 {
+  font-size: 1.5rem;
+  color: #004445;
+  margin: 0;
+  margin-top: 3%;
+}
+
+.highlights p {
+  font-size: 0.9rem;
+  color: grey;
+  margin: 0;
+}
+
+.highlights-icon {
+  color: #EFC02F;
+  font-size: 3rem;
+}
+
+.highlights-icon:hover {
+  color: #e0a800;
+}
+@media (max-width: 575px) {
+  .highlights p {
+    margin-bottom: 20px;
+  }
+}
+/***************** Testimonials *****************/
+#testimonials {
+  background-color: #faf5e4;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+#testimonials img {
+  float: left;
+  max-width: 80%;
+  padding-top: 3%;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #EFC02F;
+}
+
+#testimonials img:hover {
+  background-color: #EFC02F;
+}
+
+#testimonials p {
+  font-size: 1.5rem;
+  color: #004445;
+}
+
+#testimonials h3 {
+  color: #EFC02F;
+}
+
+@media (max-width: 575px) {
+  .testimonial-profile {
+    display: flex;
+    justify-content: center;
+  }
+  #testimonials img {
+    max-width: 40%;
+  }
+  .testimonial-text {
+    height: 200px;
+    padding: 10%;
+  }
+  #testimonials p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  #testimonials h3 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
+
+.testimonial-text {
+  margin: auto auto;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23EFC02F' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23EFC02F' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+  background-color: #EFC02F;
+}
+
+/***************** Magazine *****************/
+#pricing {
+  text-align: center;
+}
+
+#pricing {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#pricing h3 {
+  color: #004445;
+}
+
+#pricing p {
+  color: grey;
+}
+
+.pricing-title h3 {
+  font-size: 2.5rem;
+}
+
+.pricing-cards {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card-body {
+  background-color: #faf5e4;
+}
+
+.card-header {
+  background-color: #faf5e4;
+}
+
+@media (max-width: 575px) {
+  .pricing-title h3 {
+    font-size: 1.5rem;
+  }
+  .pricing-title p {
+    font-size: 0.75rem;
+  }
+}
+
+/***************** Mobile App *****************/
+#mobile-app .container {
+  text-align: center;
+}
+
+#mobile-app h3 {
+  color: #004445;
+}
+
+#mobile-app p {
+  color: grey;
+}
+
+/***************** Press *****************/
+#press {
+  margin-top: 5%;
+  padding: 1% 10%;
+  background-color: #faf5e4;
+}
+
+.press-title {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.press-logo {
+  margin: auto;
+}
+
+.press-logo img {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+}
+
+/***************** Footer *****************/
+#footer {
+  text-align: center;
+  margin: 3%;
+}
+
+.social-icon {
+  color: #004445;
+  margin: 20px 10px;
+}
+
+#footer p {
+  font-size: 0.5rem;
+  color: grey;
+}

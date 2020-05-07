@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WLOAT</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="/Users/harrismkhawar/Google Drive/Code/WebDev/UdemyCourse/bootstrap/css/bootstrap.css">
+
+  <!-- Bootstrap Stylesheet -->
+  <link rel="stylesheet" href="/Users/harrismkhawar/Google Drive/Code/WebDev/UdemyCourse/WLOAT/css/styles.css">
+
+  <!-- Font Awesome Webkit -->
+  <script src="https://kit.fontawesome.com/4590e1988c.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <!-- Hamburger Button on Collapse -->
+    <a id="wloat-title" class="navbar-brand" href="#">WLOAT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Items -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Search Form -->
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="e.g. Turtle Gender" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+      <!-- Navbar Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Connect</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <!-- Title -->
+  <section id="banner-main">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-lg-6 col-sm-6 col-12">
+          <h1 id="wloat-slogan">We Live On A Turtle.</h1>
+          <div class="banner-btn">
+            <button id="join-us-btn" type="button" class="btn btn-warning btn-lg">Join Us</button>
+            <button id="learn-more-btn" type="button" class="btn btn-outline-warning btn-lg">Learn More</button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-6 col-12">
+          <img id="wloat-icon" src="images/wloat-icon.png" alt="wloat-wallpaper">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Highlights -->
+
+  <section id="features">
+
+    <div class="row highlights">
+
+      <div class="col-lg-4 col-sm-12">
+        <i class="far fa-lightbulb highlights-icon"></i>
+        <h3>Theory</h3>
+        <p>The truth is WLOAT and it can be proved.</p>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <i class="far fa-check-circle highlights-icon"></i>
+        <h3>Evidence</h3>
+        <p>From mythical legends to scientific journals.</p>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <i class="far fa-hand-paper highlights-icon"></i>
+        <h3>Supporters</h3>
+        <p>WLOAT is a belief spread accross the turtle.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <!-- Testimonials Carousel -->
+    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonials-carousel" data-slide-to="1"></li>
+        <li data-target="#testimonials-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <!-- Carousel Item 1 -->
+        <div class="carousel-item active">
+
+
+          <div class="row">
+            <div class="col-lg-4 testimonial-profile">
+              <img src="images/alvin.png" alt="alvin-profile">
+            </div>
+            <div class="col-lg-8 testimonial-text">
+              <p><em>"I've seen a lot of sh*t in my life. That includes a giant ass turtle carrying a planet."</em></p>
+              <h3>Alvin Seville, California</h3>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Carousel Item 2 -->
+        <div class="carousel-item">
+
+
+          <div class="row">
+            <div class="col-lg-4 testimonial-profile">
+              <img src="images/minion.png" alt="minion-profile">
+            </div>
+            <div class="col-lg-8 testimonial-text">
+              <p><em>"Looga, taba laba migi looga!"</em></p>
+              <h3>G, Transylvania</h3>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Carousel Item 3 -->
+        <div class="carousel-item">
+
+
+          <div class="row">
+            <div class="col-lg-4 testimonial-profile">
+              <img src="images/groot.png" alt="groot-profile">
+            </div>
+            <div class="col-lg-8 testimonial-text">
+              <p><em>"Groot."</em></p>
+              <h3>Groot, Planet X</h3>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <div class="container pricing-title">
+      <h3>Get your weekly dose of turtle!</h2>
+        <p>Subscribe to our magazine and enjoy your time hitchhiking.</p>
+    </div>
+
+    <div class="container pricing-cards">
+
+      <div class="card-deck mb-3 text-center">
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Free</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ yr</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 page magazines</li>
+              <li>all pages blank</li>
+              <li>use your imagination</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Not Free</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$49 <small class="text-muted">/ yr</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 page magazine</li>
+              <li>with turtle pictures</li>
+              <li>all black & white</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Overpriced</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$99 <small class="text-muted">/ yr</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>50 page magazines</li>
+              <li>with pictures and text</li>
+              <li>coloured and laminated</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Mobile App -->
+
+  <section id="mobile-app">
+
+    <div class="container">
+      <h3>Stay informed on the go!</h3>
+      <p>Download our mobile application.</p>
+      <button type="button" class="btn btn-light"><i class="fab fa-apple"></i> App Store</button>
+      <button type="button" class="btn btn-light"><i class="fab fa-google-play"></i> Google Play</button>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+
+    <div class="row">
+      <div class="col-lg-3 col-6 press-logo">
+        <img src="images/scientology-logo.png" alt="scientology-logo">
+      </div>
+      <div class="col-lg-3 col-6 press-logo">
+        <img src="images/institute-of-enlightment.png" alt="institute-of-enlightment-logo">
+      </div>
+      <div class="col-lg-3 col-6 press-logo">
+        <img src="images/library-of-truth.png" alt="library-of-truth-logo">
+      </div>
+      <div class="col-lg-3 col-6 press-logo">
+        <img src="images/society-of-scholars.png" alt="society-of-scholars-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2020 WLOAT</p>
+
+  </footer>
+
+
+</body>
+
+</html>
